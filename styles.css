@@ -85,3 +85,17 @@ footer p {
     color: #777;
     font-size: 0.9em;
 }
+
+/* Secret Page Text Centering */
+.centered-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full-screen height */
+    text-align: center;
+}
+
+h1 {
+    font-size: 3em;
+    color: #ff0000; /* Red text */
+}
