@@ -99,3 +99,43 @@ h1 {
     font-size: 3em;
     color: #ff0000; /* Red text */
 }
+/* General Styles */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #000; /* Black background */
+    color: #fff; /* White text initially */
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.centered-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full screen height */
+    text-align: center;
+}
+
+h1 {
+    font-size: 3em;
+    color: #fff; /* White initially */
+    transition: color 10s ease; /* For smooth fading to red */
+}
+
+/* Flickering Effect */
+@keyframes flicker {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.3;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.flicker {
+    animation: flicker 0.3s infinite;
+}
