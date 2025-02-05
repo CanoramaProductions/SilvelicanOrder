@@ -1,25 +1,25 @@
 /* General Styles */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Courier New', Courier, monospace; /* Code-like font */
     margin: 0;
     padding: 0;
-    background-color: #111;
-    color: #ccc;
-    text-align: center;
+    background-color: #000; /* Black background */
+    color: #fff; /* White text */
+    text-align: center; /* Centered text */
 }
 
 h1, h2, h3 {
-    color: #fff;
+    color: #fff; /* White for all headers */
 }
 
 /* Header */
 header {
-    background-color: #222;
+    background-color: #111; /* Dark gray header */
     padding: 20px 0;
 }
 
 header .logo h1 {
-    font-size: 2.5em;
+    font-size: 3em;
     margin: 0;
 }
 
@@ -29,19 +29,19 @@ main {
 }
 
 .intro h2 {
-    font-size: 2em;
+    font-size: 2.5em;
     margin-bottom: 20px;
 }
 
 .intro p {
-    font-size: 1.1em;
+    font-size: 1.2em;
     max-width: 700px;
     margin: 0 auto;
 }
 
 /* Purpose Section */
 .purpose h3, .secrecy h3, .call-to-action h3 {
-    font-size: 1.8em;
+    font-size: 2em;
     margin-top: 50px;
 }
 
@@ -58,8 +58,8 @@ main {
 }
 
 .cta-button {
-    background-color: #555;
-    color: #fff;
+    background-color: #444; /* Dark button */
+    color: #fff; /* White text */
     padding: 15px 30px;
     text-decoration: none;
     font-size: 1.2em;
@@ -69,12 +69,12 @@ main {
 }
 
 .cta-button:hover {
-    background-color: #888;
+    background-color: #666; /* Lighter on hover */
 }
 
 /* Footer */
 footer {
-    background-color: #222;
+    background-color: #111; /* Dark footer */
     padding: 10px 0;
     position: fixed;
     width: 100%;
